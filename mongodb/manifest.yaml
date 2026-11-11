@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: gopalk1/mongodb:1.0.0
+        image: gopalk1/mongodb:1.4.0
         volumeMounts:
         - name: mongodb
           mountPath: /data/db
